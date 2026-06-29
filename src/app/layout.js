@@ -6,6 +6,8 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import FloatingActionButton from "@/components/FloatingActionButton";
+import FloatingChatButton from "@/components/FloatingChatButton";
+import BotpressChat from "@/components/BotpressChat";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -558,7 +560,9 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main className="flex-grow p-6">
           <SpeedInsights />
-          {children} <FloatingActionButton />
+          {children} 
+          {/* <FloatingChatButton /> */}
+          <BotpressChat />
           <Analytics />
         </main>
         <Footer />
