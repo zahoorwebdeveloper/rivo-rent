@@ -77,13 +77,13 @@ const FloatingActionButton = () => {
 
   return (
     <div
-      className="fixed bottom-8 right-8 w-16 h-16 md:w-20 md:h-20 flex justify-center items-center bg-transparent cursor-pointer z-50"
+      className="fixed bottom-25 right-4 w-16 h-16 md:w-20 md:h-20 flex justify-center items-center bg-transparent cursor-pointer z-50"
       onClick={() => setShowMenu(!showMenu)}
     >
       {/* Pulsing Rings */}
-      <div className="absolute ring ring-1 animate-pulse-slow"></div>
+      {/* <div className="absolute ring ring-1 animate-pulse-slow"></div>
       <div className="absolute ring ring-2 animate-pulse-slow"></div>
-      <div className="absolute ring ring-3 animate-pulse-slow"></div>
+      <div className="absolute ring ring-3 animate-pulse-slow"></div> */}
 
       {/* Main Button */}
       <div className="relative w-14 h-14 md:w-16 md:h-16 rounded-full bg-[#658C58] text-white flex justify-center items-center z-10 hover:scale-110 transition-transform duration-200">

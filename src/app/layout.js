@@ -561,7 +561,7 @@ export default function RootLayout({ children }) {
         <main className="flex-grow p-6">
           <SpeedInsights />
           {children} 
-          {/* <FloatingChatButton /> */}
+          <FloatingActionButton />
           <BotpressChat />
           <Analytics />
         </main>

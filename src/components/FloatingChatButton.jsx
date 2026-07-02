@@ -20,7 +20,7 @@ export default function FloatingChatButton() {
   return (
     <button
       onClick={openChat}
-      className="fixed bottom-8 right-8 z-50 w-16 h-16 rounded-full bg-[#658C58] shadow-2xl hover:scale-110 transition-all duration-300 flex items-center justify-center"
+      className="fixed bottom-25 right-6 z-50 w-16 h-16 rounded-full bg-[#658C58] shadow-2xl hover:scale-110 transition-all duration-300 flex items-center justify-center"
     >
       <svg
         className="w-7 h-7 text-white"
